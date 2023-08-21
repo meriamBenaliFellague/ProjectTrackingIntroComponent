@@ -280,10 +280,6 @@ li:hover{
         color: var(--Grayish-Blue);
     }
 
-    ul.active{
-        visibility: visible;
-   }
-
    li:nth-child(1) , li:nth-child(2) , li:nth-child(3) ,  li:nth-child(5){
     margin-left: 40%;
   }
