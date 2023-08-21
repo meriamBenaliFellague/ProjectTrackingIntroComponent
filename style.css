@@ -280,11 +280,9 @@ li:hover{
         color: var(--Grayish-Blue);
     }
 
-   li:nth-child(1) , li:nth-child(2) , li:nth-child(3) ,  li:nth-child(5){
-    margin-left: 40%;
-  }
+    li{
+        padding-left: 40%;
+    }
 
-  li:nth-child(4){
-    margin-left: 53%;
-  }
+    
 }
