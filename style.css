@@ -130,7 +130,7 @@ nav{
 }
 
 nav > img{
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: -150px;
   position: relative;
   margin-top: 110px;
@@ -162,13 +162,12 @@ li:hover{
     text-decoration: underline;
 }
 
-@media (max-width: 375px){
+@media (max-width: 450px){
     body{
         display: grid;
         grid-template-columns: 375px;
         grid-template-rows: 100px 1fr 1fr;
         width: 375px;
-       
     }
     .logo{
         grid-row: 1/2;
@@ -193,12 +192,20 @@ li:hover{
     nav{
         height: 440px;
         width: 60% ;
+        padding-top: 4%;
         padding-left: 10%;
         position: absolute;
         position:static;
         z-index: -1;
         margin-left: 40%;
-    }       
+    }
+    
+    .line{
+        background-color:var(--Grayish-Blue);
+        width: 250px;
+        border-radius: 0;
+        height: 1px;
+    }         
 
    ul.active{
         visibility: visible;
@@ -206,15 +213,8 @@ li:hover{
 
     .menu{
         display: block;
-        margin-top: -200px;
+        margin-top: 5px;
         width: 30px;
-        margin-left: 100px;
-        height: 20px;
-    }
-
-    .close{
-        margin-top: -200px;
-        width: 20px;
         margin-left: 100px;
         height: 20px;
     }
@@ -223,11 +223,10 @@ li:hover{
         gap: 1.6rem;
         position: relative;
         top: 120px;
-        margin-left: -160px;
-        display: flex;
+        left: 20px;
         flex-direction: column;
         background-color:white;
-        width:300px;
+        width: 80%;
         border-radius: 5px;
         padding: 20px 0;
         height: max-content;
@@ -238,12 +237,20 @@ li:hover{
  }
 
     nav > img{
-      margin-top: -40px;
+      margin-top: 100px;
       margin-left: -190px;
       position: relative;
       margin-top: 60px;
       position:static;
       width: 500px;
+    }
+
+    .section1{
+        grid-row: 3/4;
+        grid-column: 1/2;
+        margin-top: 80%;
+        padding-left: 8%;
+        font-size: 15px;
     }
 
     #p{
@@ -279,6 +286,4 @@ li:hover{
         letter-spacing: 3px;
         color: var(--Grayish-Blue);
     }
-
-
 }
